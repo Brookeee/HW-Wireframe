@@ -27,7 +27,6 @@ header {
     float: left;
     background-color: #ebebeb;
     color: #777;
-    text-align: center;
     width: 500px;
     padding: 10px;
 }
@@ -54,22 +53,20 @@ header {
 .aside {
     background-color: #ebebeb;
     float: right;
-    position: relative;
     width: 440px;
     height: 296px;
 }
+
 .clearfix::after {
     content: "";
-    display: block;
     clear: both;
+    display: block;
+    overflow: auto;
 }
 .div {
     width: 495px;
-    margin-left: 3px;
 }
-footer {
-    background-color: #ebebeb; 
-    padding: 20px;
-    overflow: auto;
-    width: 60px;
+.footer {
+    background-color: #ebebeb;
+    padding-bottom: 50px;
 }
